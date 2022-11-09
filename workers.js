@@ -38,9 +38,9 @@ async function handleSchedule(event) {
     let url = 'https://api.cloudflareclient.com/v0a'+digitString(3)+'/reg'
     var install_id = genString(22)
     let obj
-    var referrer = "47f200ea-df67-4bde-81b0-11726bef52b2" // Replace this with your Warp Refer Id
-    var tg_bot_token = "" // Replace with Telegram Bot Token
-    var tg_chat_id = "-1001234567890" // Replace with Telegram Chat ID
+    var referrer = "c62c6c81-633a-45c7-ac7e-14deb068d85e" // Replace this with your Warp Refer Id
+    var tg_bot_token = "56" // Replace with Telegram Bot Token
+    var tg_chat_id = "-1001864722120" // Replace with Telegram Chat ID
     const LOG_URL = "https://api.telegram.org/bot"+tg_bot_token+"/SendMessage?chat_id="+tg_chat_id+"&text=Warp Script\n\n"
     var body = {'key': genString(43)+"=",
 				"install_id": install_id,
